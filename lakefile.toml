@@ -1,0 +1,17 @@
+name = "sun_conjectures"
+version = "1.0.0"
+keywords = ["math", "number theory", "primes"]
+defaultTargets = ["SunConjectures"]
+
+[leanOptions]
+pp.unicode.fun = true
+relaxedAutoImplicit = false
+maxSynthPendingDepth = 3
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "v4.36.0-rc2"
+
+[[lean_lib]]
+name = "SunConjectures"
