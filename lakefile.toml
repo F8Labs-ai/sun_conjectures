@@ -15,3 +15,8 @@ rev = "v4.36.0-rc2"
 
 [[lean_lib]]
 name = "SunConjectures"
+
+# Counterexamples to Conjectures 2.4(ii) and 2.9 (arXiv:1208.2683). Not a default target: the
+# kernel check takes about 30 min and about 13 GB of build output. Build with `lake build Sunproj`.
+[[lean_lib]]
+name = "Sunproj"
